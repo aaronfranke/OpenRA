@@ -1,0 +1,92 @@
+
+# Windows launch configs
+
+[[actions]]
+platform = "windows"
+name = "Red Alert"
+path = "RedAlert.exe"
+sandbox = true
+
+[[actions]]
+platform = "windows"
+name = "Dune 2000"
+path = "Dune2000.exe"
+sandbox = true
+
+[[actions]]
+platform = "windows"
+name = "Tiberian Dawn - Windows"
+path = "TiberianDawn.exe"
+sandbox = true
+
+#[[actions]]
+#os = "windows"
+#name = "Tiberian Sun"
+#path = "TiberianSun.exe"
+#sandbox = true
+
+
+
+# MacOS launch configs
+
+[[actions]]
+platform = "macos"
+name = "Red Alert"
+path = "OpenRA - Red Alert.app"
+sandbox = true
+
+[[actions]]
+platform = "macos"
+name = "Dune 2000"
+path = "OpenRA - Dune 2000.app"
+sandbox = true
+
+[[actions]]
+platform = "macos"
+name = "Tiberian Dawn"
+path = "OpenRA - Tiberian Dawn.app"
+sandbox = true
+
+#[[actions]]
+#os = "macos"
+#name = "Tiberian Sun"
+#path = "OpenRA - Tiberian Sun.app"
+#sandbox = true
+
+
+
+# Linux launch configs
+
+[[actions]]
+platform = "linux"
+name = "Red Alert"
+path = "OpenRA-Red-Alert-x86_64.AppImage"
+sandbox = true
+
+[[actions]]
+platform = "linux"
+name = "Dune 2000"
+path = "OpenRA-Dune-2000-x86_64.AppImage"
+sandbox = true
+
+[[actions]]
+platform = "linux"
+name = "Tiberian Dawn"
+path = "OpenRA-Tiberian-Dawn-x86_64.AppImage"
+sandbox = true
+
+#[[actions]]
+#os = "linux"
+#name = "Tiberian Sun"
+#path = "OpenRA-Tiberian-Sun-x86_64.AppImage"
+#sandbox = true
+
+
+
+# Wiki page, applies to all OSes
+
+[[actions]]
+name = "manual"
+path = "https://github.com/OpenRA/OpenRA/wiki"
+sandbox = true
+
